@@ -4,7 +4,7 @@ const baseURL = "https://pokeapi.co/api/v2/pokemon/"
 document.querySelector("form button").addEventListener("click", function(e){
     e.preventDefault()
 
-    var search = document.querySelector("input").value
+    var search = document.querySelector("input").value.toLowerCase()
 
     
         console.log(baseURL + search)
