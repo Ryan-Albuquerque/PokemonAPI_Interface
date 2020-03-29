@@ -78,7 +78,7 @@ document.querySelector("form button").addEventListener("click", function(e){
                 document.querySelector("input").value = ''
                 
             }else{
-                document.querySelector(".modal-title").innerHTML = "Pokemon " +search + " not found"
+                document.querySelector(".modal-title").innerHTML = "Pokemon " + search + " not found"
                 document.querySelector(".modal-body").innerHTML = "Try another poke name"
 
                 
